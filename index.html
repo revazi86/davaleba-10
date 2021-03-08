@@ -1,9 +1,326 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
 	<title>შუალედური</title>
 </head>
 <body>
+	<div class="flex flex-wrap wrapper">
+        <aside class="left-aside-colum align-self-top aside">
+            <div class="header-aside flex spece-between">
+               <div>
+                <a href="index.html" class="logotitle">design.<span class="logo1">today</span></a>
+               </div>
+               <div>                 
+                    <i class="fas fa-bars fa-2x text-white"></i> 
+               </div> 
+            </div>
+               <nav class="menus">
+    				<ul>
+                        <li class="libox">
+                            <a href="index.html" class="link menu-item flex">
+							<img src="./img/Component 5 – 2.jpg" alt="home" class="link-img">
+							<span class="nav-text">Home</span>
+                            </a>
+						</li>
+                        </a>
+						<li class="libox">
+                            <a href="" class="link menu-item flex">
+							<img src="./img/Component 3 – 2.jpg" alt="explore" class="linkimg">
+							<span class="nav-text">Explore</span></a>
+						</li>
+						<li class="libox">
+                            <a href="" class="link flex menu-item">
+							<img src="./img/Component 4 – 2.jpg" alt="folders" class="linkimg">
+                            <span class="nav-text">Folders</span></a>
+						</li>
+						<li class="libox">
+                            <a href="" class="link flex menu-item">
+							<img src="./img/Component 8 – 2.png" alt="fav" class="linkimg">
+							<span class="nav-text">Favourites</span></a>
+						</li>
+                        <li class="libox">
+                            <a href="" class="link flex menu-item">
+							<img src="./img/Component 1 – 2.jpg" alt="active" class="linkimg">
+							<span class="nav-text">Activites</span> </a>
+						</li>
+					</ul>
+			</nav>
+			<div class="followers">
+                <h3 class="folltitle text-white">FOLLOWING</h3>
+				<nav>
+                    <ul>
+                        <li class="userli">
+                            <a href="" class=" user-image flex">
+							<img src="./img/Rectangle 67.jpg" alt="user1" class="userimg">
+							<span class="foll-text"> Sajon</span> </a>
+						</li>
+                        <li class="userli">
+                            <a href="" class=" user-image flex">
+							<img src="./img/Rectangle 65.jpg" alt="user2" class="userimg">
+							<span class="foll-text">Tran Mau Tri Tam</span> </a>
+						</li>
+                        <li class="userli">
+                            <a href="" class=" user-image flex">
+							<img src="./img/Rectangle 70.jpg" alt="user3" class="userimg">
+							<span class="foll-text">Ghani Pradita</span></a>
+						</li>
+                        <li class="userli">
+                            <a href="" class="link user-image flex">
+							<img src="./img/Rectangle 71.jpg" alt="user4" class="userimg">
+							<span class="foll-text">David Kovalev</span></a>
+						</li>
+                        <li class="userli">
+                            <a href="" class="link user-image flex">
+							<img src="./img/Rectangle 44.jpg" alt="user5" class="userimg">
+							<span class="foll-text">Ryan Putnam</span></a>
+						</li>
+                    </ul>
+                    <a href="#" class="linkfoll">load more(15)</a>
+				</nav>
+			</div>  
+	</aside> <!-- End left-aside -->
+        <aside class="right-aside-colum aside">
+            <header class="header-main flex">
+               <div class="search flex center">
+                    <form class="search-form flex">
+                        <input type="search" name="gsearch" placeholder="Search inspiration" class="search-input">
+                        <button type="submit" class="search-btn"></button>
+                    </form>
+                </div>
+                <div class="tools flex center flex-end">
+                    <div class="tool">
+                        <a href="#" class="pro">GO PRO!</a>
+                    </div>
+                    <div class="tool flex">
+                        <div class="icon mail">
+                          <a class="maila" href="#"></a>
+                        </div>
+                        <div class="icon alert">
+                         <a  class="alerta" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="tool">
+                        <a  class="profile" href="user.html"></a> 
+                    </div>
+                    <div class="tool">
+                        <a href="#"><img src="./img/search.png" alt="search" class="msearch"></a>
+                    </div>
+                    <div class="tool upload">
+                        <a  href="#">UPLOAD</a>
+                    </div>                                 
+                </div>
+            </header>
+            <section class="course">
+                <div class="container">
+                    <div class="list-course flex spece-between">
+                        <div class="list flex center">
+                            <ul class="flex course-group">
+                                    <li class="course-group-item all"><a href="#">all</a></li>
+                                    <li class="course-group-item"><a href="#">Web design</a></li>
+                                    <li class="course-group-item"><a href="#">3D</a></li>
+                                    <li class="course-group-item"><a href="#">App design</a></li>
+                                    <li class="course-group-item"><a href="#">Animation</a></li>
+                                    <li class="course-group-item"><a href="#">Illustration</a></li>
+                                    <li class="course-group-item"><a href="#">Typography</a></li>
+                                </ul>
+                        </div>
+                        <div class="filter-btn flex center">
+                            <a href="#" class="filter-link"><img src="./img/Group 18.jpg" alt="filter">
+                            <span class="filter-text">filters</span></a>
+                        </div>
+                    </div>
+                    <div class="course-card-box flex flex-wrap spece-between ">
+                        <div class="card">
+                            <a href="#"><img src="img/Rectangle 45.png" alt="ui">
+                            <p class="course-text">UI Components for Unity Gaming</p></a>
+                        </div>
+                        <div class="card">
+                            <a href="#"><img src="img/rectangle 46.png" alt="mobile">
+                            <p class="course-text">Analytics Mobile App – Blurr Series</p></a>
+                        </div>
+                        <div class="card">
+                            <a href="#"><img src="img/Rectangle 47.png" alt="dark-mode">
+                            <p class="course-text">Estaro – Dark-mode – Task Management App</p></a>
+                        </div>
+                        <div class="card">
+                            <a href="#"><img src="img/Rectangle 48.png" alt="live">
+                            <p class="course-text">Live streaming application for gamers.</p></a>
+                        </div>
+                        <div class="card">
+                            <a href="#"><img src="img/Rectangle 45.jpg" alt="gaming">
+                            <p class="course-text">Dark Mockup for Unity Gaming</p></a>
+                        </div>
+                        <div class="card">
+                            <a href=""><img src="img/Rectangle 46.jpg" alt="smm">
+                            <p class="course-text">SMM – Social Media Management – App UI</p></a>
+                        </div>
+                        <div class="card">
+                            <a href=""><img src="img/Rectangle 47.jpg" alt="food app">
+                            <p class="course-text">Food App 2.0 </p></a>
+                        </div>
+                        <div class="card">
+                            <a href=""><img src="img/Rectangle 48.jpg" alt="live">
+                            <p class="course-text">Live streaming application for gamers.</p></a>
+                        </div>         
 
+                    </div>	
+                   <div class="flex center load-more">
+                        <button class="button"> <a href="#">Lode more</a></button>
+                     </div>
+            
+                </div>
+            </section>
+            <section class="section2" >
+                <div class="container">
+                    <div class="top-desbox">
+                        <div class="flex spece-between title">
+                            <h2 class="titletop">top design</h2>
+                            <p class="viewall">view all</p>
+                        </div>
+                        <div class="userbox flex flex-wrap space-around">
+                            <div class="cardbody">
+                                <div class="card-body-inner">                     
+                                    <img src="./img/Rectangle 65.jpg" alt="user1" class="userimg1">
+                                    <p class="firstname">Tran Mau</p>
+                                    <p class="nikname">Tri Tam </p>
+                                    <p class="userfrom">Sai Gon, Vietnam</p>
+                                </div>
+                                <a href="#"><button class="follow">following</button></a>
+                            </div>
+                            <div class="cardbody">
+                                <div class="card-body-inner">
+                                    <img src="./img/rectangle 69.jpg" alt="user2" class="userimg1">
+                                    <p class="firstname">Ghulam</p>
+                                    <p class="nikname">Rasool</p>
+                                    <p class="userfrom">Dubai</p>
+                                </div>
+                                <a href="#"><button class="follow">follow</button></a>
+                            </div> 
+                            <div class="cardbody">
+                                <div class="card-body-inner">
+                                    <img src="./img/Rectangle 66.jpg" alt="user3" class="userimg1">
+                                    <p class="firstname">Zhenya</p>
+                                    <p class="nikname">Rynzhuk</p>
+                                    <p class="userfrom">New York City, NY</p>
+                                </div>
+                                <a href="#"><button class="follow">following</button></a>
+                            </div> 
+                            <div class="cardbody">
+                                <div class="card-body-inner">
+                                <img src="./img/Rectangle 70.jpg" alt="user4" class="userimg1">
+                                    <p class="firstname">Ghani</p>                           
+                                    <p class="nikname"> Pradita</p>
+                                    <p class="userfrom">Yogyakarta, Indonesia</p>
+                                </div>
+                                    <a href="#"><button class="follow">follow</button></a>
+                            </div>                         
+                            <div class="cardbody">
+                                <div class="card-body-inner">
+                                    <img src="./img/Rectangle 67.jpg" alt="user5" class="userimg1">
+                                    <p class="firstname">Sajon</p>
+                                    <p class="nikname black> # </p>
+                                    <p class="userfrom">Earth</p>
+                                </div>                             
+                                <a href="#"><button class="follow">follow</button></a>  
+                            </div>
+                            <div class="cardbody">
+                                <div class="card-body-inner">
+                                    <img src="./img/Rectangle 71.jpg" alt="user6" class="userimg1">
+                                    <p class="firstname">David</p>
+                                    <p class="nikname"> Kovalev</p>
+                                    <p class="userfrom">Sarasota, FL</p>
+                                </div>
+                                <a href="#"><button class="follow">follow</button></a>                         
+                            </div> 
+                            <div class="cardbody">
+                                <div class="card-body-inner">
+                                    <img src="./img/Rectangle 44.jpg" alt="user7" class="userimg1">
+                                    <p class="firstname">Ryan</p>
+                                    <p class="nikname">Putnam</p>
+                                    <p class="userfrom">Colorado Springs</p>
+                                </div>
+                                <a href="#"><button class="follow">follow</button></a>
+                            </div> 
+                            <div class="cardbody">
+                                <div class="card-body-inner">
+                                    <img src="./img/Rectangle 72.jpg" alt="user8" class="userimg1">
+                                    <p class="firstname">Dmitry</p>
+                                    <p class="nikname">Lauretsky</p>
+                                    <p class="userfrom">Omsk, Russia</p>
+                                </div>
+                                <a href="#"><button class="follow">follow</button></a>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="container" >
+                <div class="footerbox1  flex">
+                       <div class="footerbox">
+                           <h3 class="footertitle"><a href="#">For designers</a></h3>
+                           <ul>
+                               <li class="footerli"><a href="#">Go Pro!</a></li>
+                               <li class="footerli"><a href="#">Explore design work</a></li>
+                               <li class="footerli"><a href="#">Design blog</a></li>
+                               <li class="footerli"><a href="#">Overtime podcast</a></li>
+                               <li class="footerli"><a href="#">Dribbble meetups</a></li>
+                               <li class="footerli"><a href="#">Playoffs</a></li>
+                               <li class="footerli"><a href="#">Weekly Warm-Up</a></li>
+                               <li class="footerli"><a href="#">Code of conduct</a></li>
+                           </ul>
+                       </div>
+                       <div class="footerbox">
+                           <h3 class="footertitle"><a href="#">Hire designers</a></h3>
+                           <ul>
+                               <li class="footerli"><a href="#">Post a job opening</a></li>
+                               <li class="footerli"><a href="#">Post a freelance project</a></li>
+                               <li class="footerli1"><a href="#">Search for designers</a></li>
+                               <li class="footerli2"><a href="#">Brands</a></li>
+                               <li class="footerli"><a href="#">Advertise with us</a></li>
+                           </ul>
+                       </div>
+                       <div class="footerbox">
+                           <h3 class="footertitle"><a href="#">Company</a></h3>
+                           <ul>
+                               <li class="footerli"><a href="#">About</a></li>
+                               <li class="footerli"><a href="#">Careers</a></li>
+                               <li class="footerli"><a href="#" >Support</a></li>
+                               <li class="footerli"><a href="#">Media kit</a></li>
+                               <li class="footerli"><a href="#">Dribbble shop</a></li>
+                               <li class="footerli"><a href="#">Testimonials</a></li>
+                               <li class="footerli"><a href="#">API</a></li>
+                               <li class="footerli"><a href="#">Terms of service</a></li>
+                               <li class="footerli"><a href="#">Privacy policy</a></li>
+                           </ul>
+                       </div>
+                       <div class="footerbox">
+                           <h3 class="footertitle"><a href="#"> Directories</a></h3>
+                           <ul>
+                               <li class="footerli"><a href="#">Top designerst</a></li>
+                               <li class="footerli"><a href="#">Top design teams</a></li>
+                               <li class="footerli"><a href="#">Design jobs</a></li>
+                               <li class="footerli"><a href="#">Tags</a></li>
+                               <li class="footerli1"><a href="#">Places</a></li>
+                               <li class="footerli2"><a href="#">Design assetsls</a></li>
+                               <li class="footerli"><a href="#">Shop Creative Market</a></li>
+                           </ul>
+                       </div>
+                   </div>
+                   <div class="footerbox1  flex space-between socbox">
+                       <div class="soc">
+                           <a href="https://www.facebook.com/"><img src="./image/icon/facebook.svg" alt="https://www.facebook.com/"></a>
+                           <a href="https://www.instagram.com/"><img src="./image/icon/Layer 2.svg" alt="https://www.instagram.com/"></a> 
+                           <a href="https://twitter.com/"><img src="./image/icon/Component 14 – 2.svg" alt="https://twitter.com/"></a>
+                       </div>
+                       <p class="create">For<span class="creates">Smartacademy</span></p>                        
+                   </div>               
+           </footer>            
+        </aside> 
+    </div>	         
 </body>
 </html>

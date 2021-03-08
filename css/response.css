@@ -1,0 +1,180 @@
+@media  (max-width: 1049px) {
+    .menus {
+       display: none;
+   }
+   .followers{
+       display: none;
+   }
+   .right-aside-colum {
+       width: 100%;
+   }
+   .wrapper{
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: column;
+               flex-direction: column;      
+   }  
+   .left-aside-colum {
+     width: 100%;}}
+   
+ @media  (max-width: 900px) {
+ 
+     .userbox  {
+         -webkit-box-pack: center;
+             -ms-flex-pack: center;
+                 justify-content: center;
+     }
+     .cardbody {
+         width: 15%;
+     }
+ 
+     .course-group-item:not(.all) {
+         display: none;
+     }
+     .all{
+         border: 1 solid #4e4545;
+         background-color: #dad5d5;
+         border-radius: 5px;
+         padding: 20px;
+     } 
+ 
+ }
+ @media  (max-width: 700px){
+     .search {
+         display: none;
+     } 
+     .header-main{        
+         -webkit-box-orient: vertical;        
+         -webkit-box-direction: reverse;        
+             -ms-flex-direction: column-reverse;        
+                 flex-direction: column-reverse;      
+     }
+     .tools{
+         width: 100%;
+     }
+     .msearch {
+         display: block;
+     }
+     .footerbox{padding-left: 5px;}
+ 
+     .boxproduct{
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+             -ms-flex-direction: column;
+                 flex-direction: column;
+     } 
+     .acc-text-mobile{
+         display: block;
+         padding-right: 15px;
+         width: 30%;
+                
+     }
+     .titleaccount{
+         display: none;
+ 
+     }
+     .titletop {
+         font-size: 20px;
+     }
+     .titleproduct{
+         width: 100%;
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         padding-right: 20px;
+     }
+ }
+ 
+     
+ 
+ @media  (max-width: 600px) {
+     .cardbody {
+         width: 20%;
+     }
+     .footerbox {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+        padding: 0 15px;
+     }
+     .footerbox1{
+         -webkit-box-pack: center;
+             -ms-flex-pack: center;
+                 justify-content: center;
+     }
+     .footerbox a{
+         font-size: 13px;
+     }
+     .footertitle{
+        border-bottom: 1px solid #dad5d5;     
+     }
+     .footer{
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-pack: center;
+             -ms-flex-pack: center;
+                 justify-content: center;
+     }
+     
+     .soc{
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-pack: center;
+             -ms-flex-pack: center;
+                 justify-content: center;
+         margin-bottom: 15px;
+     }
+     .create{
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -webkit-box-pack: end;
+             -ms-flex-pack: end;
+                 justify-content: flex-end;       
+     }
+     .footerbox1 {
+         margin-top: 20px;
+     }
+     .create{        
+         font-size: 10px;        
+     }
+     .creates{
+         font-size: 10px;        
+     }
+     .socbox{
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+             -ms-flex-direction: column;
+                 flex-direction: column;        
+     }
+     .course-text{
+         font-size: 12px;
+     }
+     .filter-btn{
+         padding: 5px 5px;
+     }
+ 
+ }
+ 
+ @media  (max-width: 480px) {
+    
+     .upload{
+         padding: 7px 5px;
+         margin-top: 5px;
+     }
+     .tools{
+         -webkit-box-orient: vertical;
+         -webkit-box-direction: normal;
+             -ms-flex-direction: column;
+                 flex-direction: column;
+     }
+     .msearch{
+         display: none;
+     }  
+     
+ }
+ 
